@@ -15,6 +15,17 @@ Esta documentação descreve a API Emojify, construída utilizando FastAPI. A AP
    ```bash
    pip install -r requirements.txt
    ```
+4. Crie o Ambiente Virtual (venv)
+   ### Linux/Mac:
+   ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+   ```
+   ### Windows
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
 4. Inicie o servidor FastAPI com o comando:
    ```bash
    uvicorn main:app --reload
